@@ -18,6 +18,6 @@ public class PrimeController {
     @GetMapping
     public String getNewPrime(){
         BigInteger prime = primeService.generatePrime();
-        return "Probablement premier à 10_000 bits: " + prime.toString()
+        return "Probablement premier à 10_000 bits: " + prime.toString();
     }
 }
